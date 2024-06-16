@@ -16,7 +16,7 @@ sudo yum install wget unzip -y
 sudo wget https://downloads.apache.org/tomcat/tomcat-10/v10.1.24/bin/apache-tomcat-10.1.24.tar.gz
 sudo tar -xvf apache-tomcat-10.1.24.tar.gz
 sudo rm apache-tomcat-10.1.24.tar.gz
-sudo mv apache-tomcat-10.1.24 tomcat9
+sudo mv apache-tomcat-10.1.24 tomcat
 sudo chmod 777 -R /opt/tomcat
 sudo chown ec2-user -R /opt/tomcat
 sh /opt/tomcat/bin/startup.sh
